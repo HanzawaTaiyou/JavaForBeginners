@@ -2,8 +2,9 @@
 public class DisplayFace extends MyFrame{
 	public void run() {
 		int x=30;
-		fillOval(x,40,50,100);
-		fillOval(x+100,40,50,100);
-		fillRect(x,200,150,10);
+		int y=40;
+		fillOval(x,y,50,100);
+		fillOval(x+100,y,50,100);
+		fillRect(x,y+160,150,10);
 	}
 }
