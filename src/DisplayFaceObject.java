@@ -2,13 +2,12 @@
 public class DisplayFaceObject extends MyFrame{
 	public void run() {
 		Face face1=new Face(50,50);
-		face1.x=50;
-		face1.y=50;
 		face1.draw(this);
 		
-		Face face2=new Face(200,100);
-		face2.x=200;
-		face2.y=150;
+		Face face2=new Face(150,150);
 		face2.draw(this);
+		
+		Face face3=new Face(250,50);
+		face3.draw(this);
 	}
 }
