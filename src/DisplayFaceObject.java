@@ -8,7 +8,9 @@ public class DisplayFaceObject extends MyFrame{
 			face1.draw(this);
 			face2.draw(this);
 			face1.x+=10;
-			face2.x+=10;
+			face1.y+=5;
+			face2.x-=10;
+			face2.y-=5;
 			sleep(0.1);
 		}
 	}
