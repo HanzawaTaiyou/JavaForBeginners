@@ -9,8 +9,6 @@ public class DisplayFaceObject extends MyFrame{
 			clear();
 			for (int j=0; j<3; j++) {
 				faces[j].draw(this);
-			}
-			for (int j=0; j<3; j++) {
 				faces[j].move();
 			}
 			sleep(0.1);
