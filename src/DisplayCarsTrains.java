@@ -9,7 +9,7 @@ public class DisplayCarsTrains extends MyFrame{
 		vehicles.add(new Train(10,240,9,0));
 		vehicles.add(new Truck(10,310,11,0));
 		vehicles.add(new Truck(10,380,13,0));
-		for (int i=0; i<30; i++) {
+		while (true) {
 			clear();
 			for (int j=0; j<vehicles.size(); j++) {
 				vehicles.get(j).draw(this);;
