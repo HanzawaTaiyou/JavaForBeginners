@@ -8,7 +8,7 @@ public class DisplayFaceAndTree extends MyFrame{
 			face1.draw(this);
 			tree1.draw(this);
 			face1.move();
-			tree1.move();
+
 			sleep(0.1);
 		}
 	}

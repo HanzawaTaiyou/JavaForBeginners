@@ -1,12 +1,5 @@
 
-public class Train {
-	int x,y,vx,vy;
-	public Train(int x,int y, int vx,int vy) {
-		this.x=x;
-		this.y=y;
-		this.vx=vx;
-		this.vy=vy;
-	}
+public class Train extends Vehicle{
 	public void draw(MyFrame frame) {
 		//7-EX
 		frame.fillRect(x,y,100,30);
@@ -14,10 +7,5 @@ public class Train {
 		frame.fillOval(x+15,y+30,10,10);
 		frame.fillOval(x+75,y+30,10,10);
 		frame.fillOval(x+85,y+30,10,10);
-	}
-	//7-EX2
-	public void move() {
-		x+=vx;
-		y+=vy;
 	}
 }
