@@ -7,7 +7,7 @@ public class Vehicle {
 		this.vx=vx;
 		this.vy=vy;
 	}
-	public void draw(MyFrame f) {
+	public void draw(MyFrame f,int width) {
 		// TODO 自動生成されたメソッド・スタブ
 		
 	}

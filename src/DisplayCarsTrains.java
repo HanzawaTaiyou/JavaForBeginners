@@ -12,7 +12,8 @@ public class DisplayCarsTrains extends MyFrame{
 		while (true) {
 			clear();
 			for (int j=0; j<vehicles.size(); j++) {
-				vehicles.get(j).draw(this);;
+				int width=this.getWidth();
+				vehicles.get(j).draw(this,width);;
 				vehicles.get(j).move();
 			}
 			sleep(0.1);

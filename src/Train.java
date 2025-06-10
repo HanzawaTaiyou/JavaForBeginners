@@ -4,11 +4,11 @@ public class Train extends Vehicle{
 		super(x,y,vx,vy);
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
-	public void draw(MyFrame frame) {
-		frame.fillRect(x%1000,y,100,30);
-		frame.fillOval(x%1000+5, y+30, 10, 10);
-		frame.fillOval(x%1000+15,y+30,10,10);
-		frame.fillOval(x%1000+75,y+30,10,10);
-		frame.fillOval(x%1000+85,y+30,10,10);
+	public void draw(MyFrame frame,int width) {
+		frame.fillRect(x%width,y,100,30);
+		frame.fillOval(x%width+5, y+30, 10, 10);
+		frame.fillOval(x%width+15,y+30,10,10);
+		frame.fillOval(x%width+75,y+30,10,10);
+		frame.fillOval(x%width+85,y+30,10,10);
 	}
 }

@@ -6,10 +6,10 @@ public class Car extends Vehicle{
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
 
-	public void draw(MyFrame frame) {
-		frame.fillRect(x%1000+20,y,40,20);
-		frame.fillRect(x%1000, y+20, 80, 20);
-		frame.fillOval(x%1000+10,y+40,20,20);
-		frame.fillOval(x%1000+50,y+40,20,20);
+	public void draw(MyFrame frame,int width) {
+		frame.fillRect(x%width+20,y,40,20);
+		frame.fillRect(x%width, y+20, 80, 20);
+		frame.fillOval(x%width+10,y+40,20,20);
+		frame.fillOval(x%width+50,y+40,20,20);
 	}
 }

@@ -5,8 +5,8 @@ public class CarObject extends MyFrame{
 		Car car2=new Car(300,250,-5,0);
 		while(true) {
 			clear();
-			car1.draw(this);
-			car2.draw(this);
+			car1.draw(this,1000);
+			car2.draw(this,1000);
 			car1.move();
 			car2.move();
 			sleep(0.1);
